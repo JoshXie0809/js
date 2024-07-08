@@ -12,21 +12,91 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "Introduction",
     "section": "",
-    "text": "首先我會閱讀 DOM-Scripting 這本書",
+    "text": "首先我會閱讀 DOM-Scripting 這本書，來學習 js 。",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "ch1.html",
+    "href": "ch1.html",
+    "title": "1  ch1",
+    "section": "",
+    "text": "1.1 script language\nJavaScript 是一種 script language (python) 無須編譯。 他告知 web browser 該做甚麼事情。 而不是藉由自身來達成任務。 而瀏覽器可以視為一個功能很多的物件 (BOM, browser object model)， 而我們瀏覽的頁面則可以視為一個文件 (DOM, document object model)。 而 js 則擁有操縱它們的能力， 例如可以調整瀏覽器視窗大小等。 而 DOM 的意是便是指網頁上的所有內容， 每一個文字，每一個按鈕。",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>ch1</span>"
+    ]
+  },
+  {
+    "objectID": "ch1.html#script-language",
+    "href": "ch1.html#script-language",
+    "title": "1  ch1",
+    "section": "",
+    "text": "1.1.1 早期的 js 可以直接使用頁面上的內容\n// document 是指現在頁面 \ndocument.images[2] // 使用當前頁面 index 2 的圖片\ndocument.forms['details'] // 使用當前頁面 \"details\" 問卷",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>ch1</span>"
+    ]
+  },
+  {
+    "objectID": "ch2.html",
+    "href": "ch2.html",
+    "title": "2  ch2",
+    "section": "",
+    "text": "內容太老，該學習別本",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>ch2</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html",
+    "href": "ch3.html",
+    "title": "3  ch3",
+    "section": "",
+    "text": "3.1 DOM\n當我們的瀏覽器載入頁面時， 一個文件的物件的生命週期就開始了。\ndocument 物件可以想成一種資料儲存格式， 下面只是舉例， 指令是跑不動的。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ch3</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#dom",
+    "href": "ch3.html#dom",
+    "title": "3  ch3",
+    "section": "",
+    "text": "資料型態的被稱為 properties (如 &lt; h1 &gt; tag 的文字大小是 28， 可以想成 document.h1.fontsize = 28 之類的)\n函數型態的被成為 method (假設你想要跳出警告可以 document.alert(text = “警告”) 之類的)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ch3</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#js-有三種物件",
+    "href": "ch3.html#js-有三種物件",
+    "title": "3  ch3",
+    "section": "3.2 JS 有三種物件",
+    "text": "3.2 JS 有三種物件\n\n用戶自身定義的物件 (自己實作的 class)\nJS 語言官方定義的物件 (Math, Array, Date …) 之類的\n瀏覽器的物件 (Browser)\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;JavaScript Objects Example&lt;/h1&gt;\n    &lt;p id=\"output\"&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n複製上面的程式碼到記事本， 儲存檔案為 .html 後， 使用瀏覽其打開如下。 我們可以使用 JavaScript 將 “insert here” 取代。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ch3</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#取代文字-insert-here",
+    "href": "ch3.html#取代文字-insert-here",
+    "title": "3  ch3",
+    "section": "3.3 取代文字 “insert here”",
+    "text": "3.3 取代文字 “insert here”\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;JavaScript Objects Example&lt;/h1&gt;\n    &lt;p id=\"output\"&gt; inster here &lt;/p&gt;\n\n    &lt;script&gt;\n\n        // 將結果顯示在 HTML 中\n        document.getElementById(\"output\").innerHTML =\n         \"insert here😀🏆🌍❤️😊\";\n    &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n我們使用 document 的 method getElementByID ， 找到有 id 被設定為 “output” 的 tag， 然後將 tag 的 property innerHTML 做更改， 因此呈現畫面如下。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ch3</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
     ]
   }
 ]
