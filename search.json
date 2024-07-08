@@ -22,71 +22,91 @@
   {
     "objectID": "ch1.html",
     "href": "ch1.html",
-    "title": "1  ch1",
+    "title": "1  script language",
     "section": "",
-    "text": "1.1 script language\nJavaScript 是一種 script language (python) 無須編譯。 他告知 web browser 該做甚麼事情。 而不是藉由自身來達成任務。 而瀏覽器可以視為一個功能很多的物件 (BOM, browser object model)， 而我們瀏覽的頁面則可以視為一個文件 (DOM, document object model)。 而 js 則擁有操縱它們的能力， 例如可以調整瀏覽器視窗大小等。 而 DOM 的意是便是指網頁上的所有內容， 每一個文字，每一個按鈕。",
+    "text": "JavaScript 是一種 script language (python) 無須編譯。 他告知 web browser 該做甚麼事情。 而不是藉由自身來達成任務。 而瀏覽器可以視為一個功能很多的物件 (BOM, browser object model)， 而我們瀏覽的頁面則可以視為一個文件 (DOM, document object model)。 而 js 則擁有操縱它們的能力， 例如可以調整瀏覽器視窗大小等。 而 DOM 的意是便是指網頁上的所有內容， 每一個文字，每一個按鈕。",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>ch1</span>"
-    ]
-  },
-  {
-    "objectID": "ch1.html#script-language",
-    "href": "ch1.html#script-language",
-    "title": "1  ch1",
-    "section": "",
-    "text": "1.1.1 早期的 js 可以直接使用頁面上的內容\n// document 是指現在頁面 \ndocument.images[2] // 使用當前頁面 index 2 的圖片\ndocument.forms['details'] // 使用當前頁面 \"details\" 問卷",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>ch1</span>"
-    ]
-  },
-  {
-    "objectID": "ch2.html",
-    "href": "ch2.html",
-    "title": "2  ch2",
-    "section": "",
-    "text": "內容太老，該學習別本",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>ch2</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>script language</span>"
     ]
   },
   {
     "objectID": "ch3.html",
     "href": "ch3.html",
-    "title": "3  ch3",
+    "title": "3  DOM",
     "section": "",
-    "text": "3.1 DOM\n當我們的瀏覽器載入頁面時， 一個文件的物件的生命週期就開始了。\ndocument 物件可以想成一種資料儲存格式， 下面只是舉例， 指令是跑不動的。",
+    "text": "3.1 JS 有三種物件\n複製上面的程式碼到記事本， 儲存檔案為 .html 後， 使用瀏覽器打開檔案時， 結果呈現如下，\n我們可以使用 JavaScript 將 “insert here” 取代。",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ch3</span>"
-    ]
-  },
-  {
-    "objectID": "ch3.html#dom",
-    "href": "ch3.html#dom",
-    "title": "3  ch3",
-    "section": "",
-    "text": "資料型態的被稱為 properties (如 &lt; h1 &gt; tag 的文字大小是 28， 可以想成 document.h1.fontsize = 28 之類的)\n函數型態的被成為 method (假設你想要跳出警告可以 document.alert(text = “警告”) 之類的)",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ch3</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>DOM</span>"
     ]
   },
   {
     "objectID": "ch3.html#js-有三種物件",
     "href": "ch3.html#js-有三種物件",
-    "title": "3  ch3",
-    "section": "3.2 JS 有三種物件",
-    "text": "3.2 JS 有三種物件\n\n用戶自身定義的物件 (自己實作的 class)\nJS 語言官方定義的物件 (Math, Array, Date …) 之類的\n瀏覽器的物件 (Browser)\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;JavaScript Objects Example&lt;/h1&gt;\n    &lt;p id=\"output\"&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n複製上面的程式碼到記事本， 儲存檔案為 .html 後， 使用瀏覽其打開如下。 我們可以使用 JavaScript 將 “insert here” 取代。",
+    "title": "3  DOM",
+    "section": "",
+    "text": "用戶自身定義的物件 (自己實作的 class)\nJS 語言官方定義的物件 (Math, Array, Date …) 之類的\n瀏覽器的物件 (Browser)\n\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;JavaScript Objects Example&lt;/h1&gt;\n    &lt;p id=\"output\"&gt;&lt;/p&gt;\n&lt;/body&gt;\n&lt;/html&gt;",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ch3</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>DOM</span>"
     ]
   },
   {
     "objectID": "ch3.html#取代文字-insert-here",
     "href": "ch3.html#取代文字-insert-here",
-    "title": "3  ch3",
-    "section": "3.3 取代文字 “insert here”",
-    "text": "3.3 取代文字 “insert here”\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;JavaScript Objects Example&lt;/h1&gt;\n    &lt;p id=\"output\"&gt; inster here &lt;/p&gt;\n\n    &lt;script&gt;\n\n        // 將結果顯示在 HTML 中\n        document.getElementById(\"output\").innerHTML =\n         \"insert here😀🏆🌍❤️😊\";\n    &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n我們使用 document 的 method getElementByID ， 找到有 id 被設定為 “output” 的 tag， 然後將 tag 的 property innerHTML 做更改， 因此呈現畫面如下。",
+    "title": "3  DOM",
+    "section": "3.2 取代文字 “insert here”",
+    "text": "3.2 取代文字 “insert here”\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;JavaScript Objects Example&lt;/h1&gt;\n    &lt;p id=\"output\"&gt; inster here &lt;/p&gt;\n\n    &lt;script&gt;\n\n        // 將結果顯示在 HTML 中\n        document.getElementById(\"output\").innerHTML =\n         \"insert here😀🏆🌍❤️😊\";\n    &lt;/script&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n我們使用 document 的 method getElementByID ， 找到有 id 被設定為 “output” 的 tag， 然後將 tag 的 property innerHTML 做更改， 因此呈現畫面如下。",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>ch3</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>DOM</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#文件的資料是-nodes-的集合",
+    "href": "ch3.html#文件的資料是-nodes-的集合",
+    "title": "3  DOM",
+    "section": "3.3 文件的資料是 nodes 的集合",
+    "text": "3.3 文件的資料是 nodes 的集合\n在上述的例子中， 我們可以發現， 文件是一個由一堆節點 (node) 所組成的東西。\n&lt;html&gt; 包住所有東西\n&lt;head&gt; 包住一些定義\n&lt;body&gt; 真正呈現在我們眼前的網頁內容\n我們以 &lt;p&gt; 來討論， 它包含三個部分\n\nelement node: p 是瀏覽器內建的 tag\nattribute node: id = \"output\" 這個 node 包含一些我們定義的東西, 像 python 的 dictionary p[“id”] = “output”, 而 “id” 是官方約定好的 attribute ，其餘還有很多官方約定好的東西。\ntext noded: 就是單純裡面的文字",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>DOM</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#使用-attribute-node-css",
+    "href": "ch3.html#使用-attribute-node-css",
+    "title": "3  DOM",
+    "section": "3.4 使用 attribute node: CSS",
+    "text": "3.4 使用 attribute node: CSS\n使用官方約定好的 attribute 的好處之一便是可以使用 CSS 調整設計\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;JavaScript Objects Example&lt;/h1&gt;\n    &lt;p id=\"output\" class=\"para\"&gt; inster here &lt;/p&gt;\n\n    &lt;script&gt;\n\n        // 將結果顯示在 HTML 中\n        document.getElementById(\"output\").innerHTML =\n         \"insert here😀🏆🌍❤️😊\";\n    &lt;/script&gt;\n\n    &lt;style&gt;\n        h1 {\n            color: red\n        }\n    &lt;/style&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n我們在添增的 &lt;style&gt; tag 中寫下\nh1 {\n    color: red\n}\n\nh1 -&gt; 所有是 h1 的 element node 字的顏色變成紅色\n\n可以發現因為 insert here 那邊是被 &lt;p&gt; tag 包括， 所以沒有發生變色",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>DOM</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#css-class-指定",
+    "href": "ch3.html#css-class-指定",
+    "title": "3  DOM",
+    "section": "3.5 CSS class 指定",
+    "text": "3.5 CSS class 指定\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;JavaScript Objects Example&lt;/h1&gt;\n    &lt;h1 class=\"para\"&gt; class=\"para\"&lt;/h1&gt; \n    &lt;p id=\"output\" class=\"para\"&gt; inster here &lt;/p&gt;\n    &lt;p id=\"output2\" class=\"para\"&gt; inster here 2 &lt;/p&gt;\n\n    &lt;script&gt;\n\n        // 將結果顯示在 HTML 中\n        document.getElementById(\"output\").innerHTML = \n        \"insert here😀🏆🌍❤️😊\";\n    &lt;/script&gt;\n\n    &lt;style&gt;\n\n        p.para {\n            color: blue\n        }\n\n    &lt;/style&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n在 CSS 中，我們也可以透過\np.para 代表 \n1. (element node=\"p\")\n2. (class=\"para\")\n的 node 顏色都變成藍色\n\n可以試看看將 p.para 改為 .para 看看是否 h1 會改變 id 在 CSS 中則是透過 # 來指定, 並且 id 像身分證字號，不要重複",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>DOM</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#getelementsbytagname",
+    "href": "ch3.html#getelementsbytagname",
+    "title": "3  DOM",
+    "section": "3.6 getElementsByTagName",
+    "text": "3.6 getElementsByTagName\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;ul&gt;\n        &lt;li&gt; 1 &lt;/li&gt;\n        &lt;li&gt; 2 &lt;/li&gt;\n        &lt;li&gt; 3 &lt;/li&gt;\n    &lt;/ul&gt;\n\n    &lt;script&gt;\n        // 將結果顯示在 HTML 中\n        let items = document.getElementsByTagName(\"li\")\n        for(let i = 0; i &lt; items.length; i++) {\n            alert( typeof  items[i]);\n        }\n    &lt;/script&gt;\n\n&lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>DOM</span>"
+    ]
+  },
+  {
+    "objectID": "ch3.html#getattribute",
+    "href": "ch3.html#getattribute",
+    "title": "3  DOM",
+    "section": "3.7 getAttribute",
+    "text": "3.7 getAttribute\n除了像 tag id class 這種官方有規定的 attribute， 可能文件裡面會出現一些我們自己定義的 attribute 。\n&lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;meta name=\"viewport\" \n    content=\"width=device-width, initial-scale=1.0\"&gt;\n    &lt;title&gt;JavaScript Objects Example&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;ul&gt;\n        &lt;li score=\"99\"&gt; student 1 &lt;/li&gt;\n        &lt;li score=\"98\"&gt; student 2 &lt;/li&gt;\n        &lt;li score=\"60\"&gt; student 3 &lt;/li&gt;\n    &lt;/ul&gt;\n\n    &lt;script&gt;\n        // 將結果顯示在 HTML 中\n        let items = document.getElementsByTagName(\"li\")\n        for(let i = 0; i &lt; items.length; i++) {\n            let score = Number(items[i].getAttribute(\"score\"));\n            // 每人調高 5 分\n            score += 5\n            let name = items[i].innerHTML;\n            alert( `${name}'s score is ${score}`);\n        }\n    &lt;/script&gt;\n\n&lt;/body&gt;\n&lt;/html&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>DOM</span>"
     ]
   },
   {
